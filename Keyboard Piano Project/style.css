@@ -1,11 +1,7 @@
-h1 {
-    text-align: center;
-    font-size: 1.8em;
-    font-family: monospace;
-    padding: 0.7em;
-  }
-  
-  .keyboard {
+.keyboard {
+      border-radius: 50px;
+      height: 110%;
+      background:linear-gradient(black,grey);
       text-align: center;
       font-size: 14px;
       font-family: sans-serif;
@@ -14,7 +10,9 @@ h1 {
   .keyboard__row {
       display: inline-block;
       height: 3em;
-      margin: 0.2em;
+      margin:4px;
+      margin-right: 2px;
+      letter-spacing: 1px;
   }
   
   .keyboard__row--h1 {
